@@ -7,11 +7,11 @@
 - work in groups with people you do not know;
 - review git, github, react, and everything you have learned so far about the backend.
 
-## You will receive ***six tasks*** that are "mandatory" and ***one Bonus task*** that you have to perform only if you have time.
+# You will receive six tasks that are "mandatory" and two Bonus tasks that you have to perform only if you have time.
  
-### What we want most from this exercise is for you to enjoy working in groups, analyzing problems and solving them.
+# What we want most from this exercise is for you to enjoy working in groups, analyzing problems and solving them.
 
-### You have to manage your time in such a way that you do the important things first and at the same time write clean, readable code (it will buy you time).
+# You have to manage your time in such a way that you do the important things first and at the same time write clean, readable code (it will buy you time).
 
 
 Here are the 6 tasks that you need to complete:
@@ -42,10 +42,14 @@ Everything must work by running requests from the frontend!
 
 Create backend validations ans sanitization. If you have time also validations in frontend!
 
-## Bonus Task
+## Bonus Task - Frontend
 
-Use your imagination to add/improve something in your App.
+Improve the frontend by using e.g. useContext to manage your global states, improve navigation e.g. by creating a notFound page if the user navigates to a path that does not exist.
+Try to make the app responsive.
 
+## Bonus Task - Backend
+
+Practice everything you have learned about mongoose, try for example to create relations between collections.
 
 ## Tips
 

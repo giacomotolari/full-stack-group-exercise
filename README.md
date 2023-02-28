@@ -2,6 +2,7 @@
 
 ## In this exercise you will have the opportunity to:
 
+- training for the final project;
 - learn how to organize a project;
 - time management;
 - work in groups with people you do not know;

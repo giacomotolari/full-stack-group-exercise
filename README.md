@@ -46,3 +46,13 @@ Create backend validations ans sanitization. If you have time also validations i
 
 Use your imagination to add/improve something in your App.
 
+
+## Tips
+
+1) You have little time so manage your time well with your group, find a solution to split the tasks.
+
+2) When you work in a group and everyone does a different task it is easy to have conflicts with git branches. Avoid conflicts by splitting the code into as many files as possible and then working in different files.
+
+3) Write code carefully, use proper names, and format each file to prevent errors and misunderstandings.
+
+4) Don't stress about style; it is not important for this exercise. Focus on the functionality of the app.

@@ -15,8 +15,6 @@
 # You have to manage your time in such a way that you do the important things first and at the same time write clean, readable code (it will buy you time).
 
 
-Here are the 6 tasks that you need to complete:
-
 ## Task 1 - git/github
 
 Create a github organization where you have two repositories (backend and frontend repo).

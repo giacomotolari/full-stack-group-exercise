@@ -1,18 +1,15 @@
 #  Welcome to the Full Stack Group Exercise!!
 
-## In this exercise you will have the opportunity to:
+## In dieser Übung übt ihr die folgenden Aspekte:
 
-- training for the final project;
-- learn how to organize a project;
-- time management;
-- work in groups with people you do not know;
-- review git, github, react, and everything you have learned so far about the backend.
-
-# You will receive six tasks that are "mandatory" and two Bonus tasks that you have to perform only if you have time.
- 
-# What we want most from this exercise is for you to enjoy working in groups, analyzing problems and solving them.
-
-# You have to manage your time in such a way that you do the important things first and at the same time write clean, readable code (it will buy you time).
+- Einen Vorgeschmack für das Final Project bekommen;
+- Die Organisation eines Projektes;
+- Zeitmanagement;
+- Das Arbeiten mit (bisher) unbekannten Teammitgliedern;
+- Wiederholen aller bisher erlernten Techniken wie `git`, `github`, `react`, `node.js`, `mongodb`, usw.
+# Ihr erhaltet sechs verpflichtende Aufgaben sowie zwei Bonusaufgaben, die ihr noch zusätzlich bestreiten könnt sofern ihr dafür noch Zeit habt.
+# Das Ziel dieser Übung ist es zu lernen, in Gruppen zu arbeiten, Probleme zu analysieren und sie zu lösen.
+# Es ist wichtig, dass ihr die zur Verfügung gestellte Zeit gut einteilt, so dass ihr die wichtigen Aspekte zuerst erledigt und dabei gleichzeitig sauberen und lesbaren Code produziert (das wird euch letztlich Zeit sparen).
 
 
 ## Task 1 - git/github
@@ -21,25 +18,40 @@ Create a github organization where you have two repositories (backend and fronte
 
 ## Task 2 - react/express js
 
-Find the fastest way to inilize both the frontend and backend.
+Initialite the frontend and backend repositories.
 
-## Task 3 - App-layout and react-routing
+## 3 Project-Plan
 
-Create a layout where you will have a navbar with all pages links. The pages are three: home, all-todos and one-todo (show a specific todo).
-You can use whatever page names you want, this was just an example!
+Use your imagination to create a full-stack app.
+Think about a resource that you will represent in your web-app (as example a todos app, any kind of managment app, or what you want!)
+***DON'T MAKE IT TO COMPLICATED!***
 
 ## Task 4 - Mongoose-MongoDB
 
 Create a MongoDB database that works remotely with Atlas that every member of the group can use.
+Create meaningful schemas and models for your project structure. 
 
 ## Task 5 - CRUD
 
-Use your imagination to create a full-stack app for creating, reading, deleting and updating data.
-Everything must work by running requests from the frontend!
+Use CRUD (create, reading, deleting and updating data).
+Pay attenction to the API responsens for different scenarios (http-codes and body).
+Everything must work by running requests from API tests apps (insomnia or postman).
 
-## Task 6
+## Task 6 - Backend-Validations
 
-Create backend validations ans sanitization. If you have time also validations in frontend!
+Create backend validations ans sanitization. 
+
+## Task 7 - App-layout and react-routing
+
+Create a layout where you will have a navbar with all pages links. The three pages should be a home-view, a resource-overview-view and a resource-details-view. Here's ***an example***: 
+- Home (`/`) 
+- All Todos (`/todos`) (Show all todos) 
+-  Todo Details (`/todos/todo/:id`) (Show a specific todo with all its details and maybe an edit-view).
+As mentioned, this is an example, feel free to come up with something own! 
+
+## Task 8 Frontend-Validations
+
+Add the validations in frontend.
 
 ## Bonus Task - Frontend
 
@@ -52,28 +64,35 @@ Practice everything you have learned about mongoose, try for example to create r
 
 ## Tips
 
-1) You have little time so manage your time well with your group, find a solution to split the tasks.
+1) You have limitierte zeit so manage your time well with your group, find a solution to split the tasks.
 
-2) When you work in a group and everyone does a different task it is easy to have conflicts with git branches. Avoid conflicts by splitting the code into as many files as possible and then working in different files.
+2) When you work in a group and everyone does a different task it is easy to have conflicts with git branches. Avoid conflicts by working in diffferent files,you might also use branches.
 
 3) Write code carefully, use proper names, and format each file to prevent errors and misunderstandings.
 
 4) Don't stress about style; it is not important for this exercise. Focus on the functionality of the app.
+ 
+5) You can use github-projects or trello for your project planing.
 
 
 ## Teams
 
 
-1. Flo BF, Susanne, Ammar F, Gabriela F ?
+1. Flo, Susanne, Ammar, Gabriela
 
-2. Timur BF (c), Quan Fb (c), Ahmad, Marvin ?
+2. Timur, Quan, Ahmad, Marvin 
 
-3. Martin BF (c), Marco, Steffen F (c), Ann F(c)
+3. Martin, Marco, Steffen, Ann 
 
-4. Leonie BF, Ali , Sofie f , Nina (c)
+4. Leonie, Ali , Sofie, Nina 
 
-5. Hannes bF, Ramon ?, Ozg BF,  Kim Hoa
+5. Hannes, Ramon, Ozg,  Kim Hoa
 
-6. Eduard Bf (c), Seb Fb, Tenaw, Elham (c)?
- 
+6. Eduard, Seb, Tenaw, Elham 
 
+
+## Presentation
+
+Date: 20.03.2023
+
+Time: 10 mins pre group

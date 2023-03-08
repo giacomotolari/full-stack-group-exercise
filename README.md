@@ -59,3 +59,21 @@ Practice everything you have learned about mongoose, try for example to create r
 3) Write code carefully, use proper names, and format each file to prevent errors and misunderstandings.
 
 4) Don't stress about style; it is not important for this exercise. Focus on the functionality of the app.
+
+
+## Teams
+
+
+#1. Flo BF, Susanne, Ammar F, Gabriela F ?
+
+#2. Timur BF (c), Quan Fb (c), Ahmad, Marvin ?
+
+#3. Martin BF (c), Marco, Steffen F (c), Ann F(c)
+
+#4. Leonie BF, Ali , Sofie f , Nina (c)
+
+#5. Hannes bF, Ramon ?, Ozg BF,  Kim Hoa
+
+#6. Eduard Bf (c), Seb Fb, Tenaw, Elham (c)?
+ 
+

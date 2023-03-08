@@ -64,16 +64,16 @@ Practice everything you have learned about mongoose, try for example to create r
 ## Teams
 
 
-#1. Flo BF, Susanne, Ammar F, Gabriela F ?
+1. Flo BF, Susanne, Ammar F, Gabriela F ?
 
-#2. Timur BF (c), Quan Fb (c), Ahmad, Marvin ?
+2. Timur BF (c), Quan Fb (c), Ahmad, Marvin ?
 
-#3. Martin BF (c), Marco, Steffen F (c), Ann F(c)
+3. Martin BF (c), Marco, Steffen F (c), Ann F(c)
 
-#4. Leonie BF, Ali , Sofie f , Nina (c)
+4. Leonie BF, Ali , Sofie f , Nina (c)
 
-#5. Hannes bF, Ramon ?, Ozg BF,  Kim Hoa
+5. Hannes bF, Ramon ?, Ozg BF,  Kim Hoa
 
-#6. Eduard Bf (c), Seb Fb, Tenaw, Elham (c)?
+6. Eduard Bf (c), Seb Fb, Tenaw, Elham (c)?
  
 

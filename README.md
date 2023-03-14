@@ -1,98 +1,76 @@
-#  Welcome to the Full Stack Group Exercise!!
+#  Willkommen zur Full-Stack Gruppenübung!!
 
-## In dieser Übung übt ihr die folgenden Aspekte:
+## In dieser Aufgabe übt ihr die folgenden Aspekte, um einen Vorgeschmack für das Final Project zu bekommen:
 
-- Einen Vorgeschmack für das Final Project bekommen;
 - Die Organisation eines Projektes;
 - Zeitmanagement;
 - Das Arbeiten mit (bisher) unbekannten Teammitgliedern;
 - Wiederholen aller bisher erlernten Techniken wie `git`, `github`, `react`, `node.js`, `mongodb`, usw.
-# Ihr erhaltet sechs verpflichtende Aufgaben sowie zwei Bonusaufgaben, die ihr noch zusätzlich bestreiten könnt sofern ihr dafür noch Zeit habt.
-# Das Ziel dieser Übung ist es zu lernen, in Gruppen zu arbeiten, Probleme zu analysieren und sie zu lösen.
-# Es ist wichtig, dass ihr die zur Verfügung gestellte Zeit gut einteilt, so dass ihr die wichtigen Aspekte zuerst erledigt und dabei gleichzeitig sauberen und lesbaren Code produziert (das wird euch letztlich Zeit sparen).
+### Ihr erhaltet sechs verpflichtende Aufgaben sowie drei Bonusaufgaben, die ihr zusätzlich bestreiten könnt, sofern ihr dafür noch Zeit habt.
+### Das Ziel dieser Übung ist es, zu lernen, in Gruppen zu arbeiten, Probleme zu analysieren und sie zu lösen.
+### Es ist wichtig, dass ihr die zur Verfügung gestellte Zeit gut einteilt, sodass ihr die wichtigen Aspekte zuerst erledigt und dabei gleichzeitig sauberen und lesbaren Code produziert (das wird euch letztlich Zeit sparen).
 
+---
 
 ## Task 1 - git/github
 
-Create a github organization where you have two repositories (backend and frontend repo).
+Erstellt eine Github Organisation für eure Gruppe mit zwei Repositories (für backend und frontend).
 
 ## Task 2 - react/express js
 
-Initialite the frontend and backend repositories.
+Initialisiere die Front- und Backend Repositories.
 
 ## 3 Project-Plan
 
-Use your imagination to create a full-stack app.
-Think about a resource that you will represent in your web-app (as example a todos app, any kind of managment app, or what you want!)
-***DON'T MAKE IT TO COMPLICATED!***
+Denkt euch zusammen ein kleines Full-Stack Projekt aus.
+Hierbei sollte irgendeine Form von Ressource in euerer Web-App dargestellt werden (z.B. eine Todo App, eine Verwalltungs-App, oder was euch noch einfällt)
+***Nicht zu komplex!***
 
 ## Task 4 - Mongoose-MongoDB
-
-Create a MongoDB database that works remotely with Atlas that every member of the group can use.
-Create meaningful schemas and models for your project structure. 
+Erstellt eine MongoDB Datenbank, welche remote via Atlas läuft, damit jeder aus eurer Gruppe daran mitarbeiten kann.
+Erstellt sinnvolle Schemas und Models für eure Projektstruktur.
 
 ## Task 5 - CRUD
-
-Use CRUD (create, reading, deleting and updating data).
-Pay attenction to the API responsens for different scenarios (http-codes and body).
-Everything must work by running requests from API tests apps (insomnia or postman).
+Nutzt die gelernten CRUD Methoden (create, reading, deleting and updating data).
+Achtet darauf, die passenden Server Antworten für die wichtigsten Szenarios zu erstellen (HTTP-codes und body).
+Eure API soll vollständig, mit den Test-Anwendungen eurer Wahl funktionieren (Insomnia, Postman, ...).
 
 ## Task 6 - Backend-Validations
+Kümmert euch um eine korrekte serverseitige Validierung und Sanitization.
 
-Create backend validations ans sanitization. 
+## Task 7 - App-layout und react-routing
+Erstellt ein Layout, das eine navbar mit allen Seitenlinks beinhaltet.
+Es sollten mindestens drei Seiten sein: eine Home-View, eine View mit einer groben Übersicht der Einträge der Ressource und eine View für die Detailansicht.
+Hier ein **Beispiel**:
+- Home(`/`)
+- Alle Todos (`/todos`) -> eine Übersicht über alle Todos
+- Todo Details (`/todos/:id`) -> eine Detailansicht des Todos, eventuell mit Edit-Funktion
 
-## Task 7 - App-layout and react-routing
-
-Create a layout where you will have a navbar with all pages links. The three pages should be a home-view, a resource-overview-view and a resource-details-view. Here's ***an example***: 
-- Home (`/`) 
-- All Todos (`/todos`) (Show all todos) 
--  Todo Details (`/todos/todo/:id`) (Show a specific todo with all its details and maybe an edit-view).
-As mentioned, this is an example, feel free to come up with something own! 
+Dies ist, wie erwähnt, nur ein Beispiel und dient zur Orientierung, wie euer eigenes Projekt aussehen **könnte** :)
 
 ## Task 8 Frontend-Validations
-
-Add the validations in frontend.
+Fügt auch eurem Frontend eine Validierungen hinzu.
 
 ## Bonus Task - Frontend
-
-Improve the frontend by using e.g. useContext to manage your global states, improve navigation e.g. by creating a notFound page if the user navigates to a path that does not exist.
-Try to make the app responsive.
+Wertet euer Frontend auf.
+Ihr könnt, beispielsweise, useContext benutzen, zum Managen globaler state variables.
+Oder fügt eine "notFound" Page ein, falls der Nutzer zu einem nicht definierten Pfad navigiert.
+Macht die App responsiv.
 
 ## Bonus Task - Backend
+Versucht all das, was wir über `Mongoose` gelernt haben einzubauen, zum Beispiel könnt ihr Referenzen zwischen Collections erstellen.
 
-Practice everything you have learned about mongoose, try for example to create relations between collections.
+## Bonus Task - Authentication
+Falls ihr noch die Zeit und Lust habt, fügt ein Authentifizierungssystem für User ein, das eingeloggten Usern `JWT` Accesstokens ausstellt.
 
-## Tips
+## Tipps
+1) Ihr habt nur begrenzt Zeit - nutzt sie effektiv und teilt die Aufgaben unter allen Gruppenmitgliedern auf.
 
-1) You have limitierte zeit so manage your time well with your group, find a solution to split the tasks.
+2) Um Konflikten vorzubeugen, während ihr in verschiedenen Branches arbeitet, vermeidet es, sofern möglich, an denselben Dateien zu arbeiten.
 
-2) When you work in a group and everyone does a different task it is easy to have conflicts with git branches. Avoid conflicts by working in diffferent files,you might also use branches.
+3) Schreibt sauberen Code, so wie wir es gelernt haben. Verwendet sinnvolle Namen für Funktionen, Variablen und Dateinamen um Missverständnisse und Fehler zu vermeiden. Eine übersichtliche Ordner Struktur ist ebenfalls von großem Vorteil, wenn das Projekt wächst.
+Achtet auf sinnvolle Commit-Nachrichten, um die Nachvollziehbarkeit eurer Arbeit zu erhöhen.
 
-3) Write code carefully, use proper names, and format each file to prevent errors and misunderstandings.
-
-4) Don't stress about style; it is not important for this exercise. Focus on the functionality of the app.
+4) Funktionalität ist für diese Übung wichtiger als ein perfektes Styling. 
  
-5) You can use github-projects or trello for your project planing.
-
-
-## Teams
-
-
-1. Flo, Susanne, Ammar, Gabriela
-
-2. Timur, Quan, Ahmad, Marvin 
-
-3. Martin, Marco, Steffen, Ann 
-
-4. Leonie, Ali , Sofie, Nina 
-
-5. Hannes, Ramon, Ozg,  Kim Hoa
-
-6. Eduard, Seb, Tenaw, Elham 
-
-
-## Presentation
-
-Date: 20.03.2023
-
-Time: 10 mins pre group
+5) Benutzt github-projects oder Trello, um euer Projekt gut zu planen.
